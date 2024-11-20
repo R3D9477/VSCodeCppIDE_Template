@@ -1,6 +1,12 @@
 [requires]
 boost/1.85.0
 gtest/1.14.0
+qt/6.7.3
+
+[options]
+qt/*:shared=True
+qt/*:qtshadertools=True
+qt/*:qtdeclarative=True
 
 [generators]
 CMakeDeps
